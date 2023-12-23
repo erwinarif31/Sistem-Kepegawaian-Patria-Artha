@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/login');
+});
+
+Route::group(['prefix' => '', 'namespace' => 'App\Http\Controllers\Auth'], function(){
+    Route::get('/login', 'LoginController@index')->name('login');
+});
+
+Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], function(){
+    Route::get('/', 'HomeController@index')->name('user.home');
+
+    // Route::group(['prefix' => 'profile'], function(){
+    //     Route::get('/data-pribadi', '')
+    // });
 });

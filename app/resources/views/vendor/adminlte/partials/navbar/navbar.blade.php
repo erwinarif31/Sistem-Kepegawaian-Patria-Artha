@@ -14,7 +14,7 @@
         @yield('content_top_nav_left')
     </ul>
 
-    <h4>Universitas Patria Artha</h4>
+    <h4 class="text-bold mt-auto mb-auto">Universitas Patria Artha</h4>
 
     {{-- Navbar right links --}}
     <ul class="navbar-nav ml-auto">

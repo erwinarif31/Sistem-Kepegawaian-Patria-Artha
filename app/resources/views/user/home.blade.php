@@ -3,13 +3,15 @@
 @section('title', 'Beranda')
 
 @section('content_header')
-    <h6>Beranda</h6>
+    <a href="{{ route('user.home') }}" class="btn p-0">
+        <h6>Beranda</h6>
+    </a>
 @stop
 
 @section('content')
     <div class="card">
         <div class="d-flex">
-            {{-- <img src="https://source.unsplash.com/random/150x150?sig=1" class="rounded-circle p-3 img-fluid"/> --}}
+            <img src="https://source.unsplash.com/random/150x150?sig=1" class="rounded-circle p-3 img-fluid"/>
             <div class="flex-row mt-auto mb-auto">
                 <h4 class="text-bold">Selamat Datang</h4>
                 <h4 class="text-bold">Suhendra S</h4>
@@ -72,7 +74,7 @@
             <div class="col">
                 <div class="d-flex justify-content-between">
                     <h5 class="text-bold">Pendidikan Terakhir</h5>
-                    <button class="btn btn-primary btn-sm mt-auto mb-auto" style="font-size: 10px">Selengkapnya</button>
+                    <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px">Selengkapnya</a>
                 </div>
                 <p style="font-size: 12px; visibility: hidden;">hehe</p>
                 <table class="table table-hover table-bordered" style="border: 1px solid black; font-size: 14px;">
@@ -100,7 +102,7 @@
             <div class="col">
                 <div class="d-flex justify-content-between">
                     <h5 class="text-bold">Status Serdos</h5>
-                    <button class="btn btn-primary btn-sm mt-auto mb-auto" style="font-size: 10px">Selengkapnya</button>
+                    <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px">Selengkapnya</a>
                 </div>
                 <p style="font-size: 12px;">Untuk informasi lebih lanjut bisa menghubungi PSD-PTU Perguruan Tinggi masing-masing atau cek PO Serdos</p>
                 <table class="table table-hover table-bordered" style="border: 1px solid black; font-size: 14px;">
@@ -148,9 +150,9 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <button class="btn" style="background-color: #95DBD2">
+                    <a href="" class="btn btn-info" style="fill: white">
                         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
-                    </button>
+                    </a>
                 </td>
             </tr>
         </table>

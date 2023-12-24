@@ -326,7 +326,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'Data Pribadi',
-                    'url'  => 'user/data-pribadi',
+                    'url'  => 'user/profile/data-pribadi',
                     'icon' => false,
                 ],
             ],

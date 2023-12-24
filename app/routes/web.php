@@ -26,7 +26,7 @@ Route::group(['prefix' => '', 'namespace' => 'App\Http\Controllers\Auth'], funct
 Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], function(){
     Route::get('/', 'HomeController@index')->name('user.home');
 
-    // Route::group(['prefix' => 'profile', 'namespace' => 'App\Http\Controllers\User\Profile'], function(){
-    //     Route::get('data-pribadi', 'ProfileController@index')->name('user.profile.data-pribadi');
-    // });
+    Route::group(['prefix' => 'profile', 'namespace' => 'Profile'], function(){
+        Route::get('data-pribadi', 'ProfileController@index')->name('user.profile.data-pribadi');
+    });
 });

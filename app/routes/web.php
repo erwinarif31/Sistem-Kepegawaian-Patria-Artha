@@ -18,15 +18,15 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => '', 'namespace' => 'App\Http\Controllers\Auth'], function(){
-    Route::get('/login', 'LoginController@index')->name('login')->middleware('guest');
+    Route::get('/login', 'LoginController@index')->name('login');
     Route::post('/login', 'LoginController@login')->name('login.post');
     Route::post('/logout', 'LoginController@logout')->name('logout');
 });
 
 Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], function(){
-    Route::get('/', 'HomeController@index')->name('user.home')->middleware('auth');
+    Route::get('/', 'HomeController@index')->name('user.home');
 
-    // Route::group(['prefix' => 'profile'], function(){
-    //     Route::get('/data-pribadi', '')
+    // Route::group(['prefix' => 'profile', 'namespace' => 'App\Http\Controllers\User\Profile'], function(){
+    //     Route::get('data-pribadi', 'ProfileController@index')->name('user.profile.data-pribadi');
     // });
 });

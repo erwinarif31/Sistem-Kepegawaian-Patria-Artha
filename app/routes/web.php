@@ -27,6 +27,10 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
     Route::get('/', 'HomeController@index')->name('user.home');
 
     Route::group(['prefix' => 'profile', 'namespace' => 'Profile'], function(){
-        Route::get('data-pribadi', 'ProfileController@index')->name('user.profile.data-pribadi');
+        // Route::get('data-pribadi', 'ProfileController@index')->name('user.profile.data-pribadi');
+        Route::group(['prefix' => 'data-pribadi'], function(){
+            Route::get('/', 'ProfileController@index')->name('user.data-pribadi');
+            Route::get('/bidang-keilmuan', 'ProfileController@bidangKeilmuan')->name('user.bidang-keilmuan');
+        });
     });
 });

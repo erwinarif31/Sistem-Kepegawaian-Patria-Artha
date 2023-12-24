@@ -16,7 +16,7 @@
 
         <h6 class="pl-2 pr-2">/</h6>
 
-        <a href="" class="btn p-0">
+        <a href="{{ route('user.data-pribadi') }}" class="btn p-0">
             <h6>Data Pribadi</h6>
         </a>
     </div>
@@ -272,7 +272,7 @@
             <div class="card p-3">
                 <div class="d-flex justify-content-between">
                     <h5 class="text-bold">Bidang Keilmuan</h5>
-                    <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px; fill: white">
+                    <a href="{{ route('user.bidang-keilmuan') }}" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px; fill: white">
                         Ajukan Perubahan
                     </a>
                 </div>

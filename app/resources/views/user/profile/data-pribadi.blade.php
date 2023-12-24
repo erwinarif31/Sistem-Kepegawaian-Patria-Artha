@@ -145,34 +145,6 @@
         <div class="col">
             <div class="card p-3">
                 <div class="d-flex justify-content-between">
-                    <h5 class="text-bold">Kependudukan</h5>
-                    <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px; fill: white">
-                        Ajukan Perubahan
-                    </a>
-                </div>
-                <table class="table mt-2 mb-0" style="font-size: 14px">
-                    <tr>
-                        <td>NIK</td>
-                        <td>:</td>
-                        <td>3171100201770009</td>
-                    </tr>
-                    <tr>
-                        <td>Agama</td>
-                        <td>:</td>
-                        <td>Islam</td>
-                    </tr>
-                    <tr>
-                        <td>Kewarganegaraan</td>
-                        <td>:</td>
-                        <td>Indonesia</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card p-3">
-                <div class="d-flex justify-content-between">
                     <h5 class="text-bold">Keluarga</h5>
                     <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px; fill: white">
                         Ajukan Perubahan
@@ -198,6 +170,34 @@
                         <td>Pekerjaan Suami/Istri</td>
                         <td>:</td>
                         <td>Tidak bekerja</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card p-3">
+                <div class="d-flex justify-content-between">
+                    <h5 class="text-bold">Kependudukan</h5>
+                    <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px; fill: white">
+                        Ajukan Perubahan
+                    </a>
+                </div>
+                <table class="table mt-2 mb-0" style="font-size: 14px">
+                    <tr>
+                        <td>NIK</td>
+                        <td>:</td>
+                        <td>3171100201770009</td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td>:</td>
+                        <td>Islam</td>
+                    </tr>
+                    <tr>
+                        <td>Kewarganegaraan</td>
+                        <td>:</td>
+                        <td>Indonesia</td>
                     </tr>
                 </table>
             </div>

@@ -31,6 +31,7 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
         Route::group(['prefix' => 'data-pribadi'], function(){
             Route::get('/', 'ProfileController@index')->name('user.data-pribadi');
             Route::get('/bidang-keilmuan', 'ProfileController@bidangKeilmuan')->name('user.bidang-keilmuan');
+            Route::get('/alamat-kontak', 'ProfileController@alamatKontak')->name('user.alamat-kontak');
         });
     });
 });

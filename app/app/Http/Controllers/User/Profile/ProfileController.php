@@ -14,4 +14,8 @@ class ProfileController extends Controller
     public function bidangKeilmuan(){
         return view('user.profile.data-pribadi.bidang-keilmuan');
     }
+
+    public function alamatKontak(){
+        return view('user.profile.data-pribadi.alamat-kontak');
+    }
 }

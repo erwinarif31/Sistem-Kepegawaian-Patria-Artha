@@ -122,7 +122,7 @@
         </table>
 
         <div class="row">
-            <div class="col-lg-4" style="font-size: 12px">
+            <div class="col-lg-4 font-weight-bold" style="font-size: 12px">
                 <p class="mb-0">Upload Dokumen</p>
                 <p class="mb-0" style="font-style: italic">(Maksimal total ukuran file dalam sekali proses upload: 5 MB)</p>
                 <br>

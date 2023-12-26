@@ -27,6 +27,10 @@ class ProfileController extends Controller
         return view('user.profile.data-pribadi.kependudukan');
     }
 
+    public function kepegawaian(){
+        return view('user.profile.data-pribadi.kepegawaian');
+    }
+
     public function bidangKeilmuan(){
         return view('user.profile.data-pribadi.bidang-keilmuan');
     }

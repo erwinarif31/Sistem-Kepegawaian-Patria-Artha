@@ -23,7 +23,7 @@
     <h6 class="pl-2 pr-2">/</h6>
 
     <a href="" class="btn p-0">
-        <h6>Biodata</h6>
+        <h6>Kependudukan</h6>
     </a>
 </div>
 @stop
@@ -31,7 +31,7 @@
 @section('content')
     <div class="card p-3">
         <div class="d-flex justify-content-between">
-            <h5 class="text-bold">Formulir Ajuan Perubahan Data Profil</h5>
+            <h5 class="text-bold">Formulir Ajuan Perubahan Data Kependudukan</h5>
             <a href="{{ route('user.data-pribadi') }}" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 12px; fill: white">
                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
                 Kembali
@@ -46,36 +46,22 @@
                 <th class="text-center">Data Baru</th>
             </tr>
             <tr>
-                <th>Nama</th>
-                <td>Suhendra S</td>
+                <th>NIK</th>
+                <td>7371100201770009</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Jenis Kelamin</th>
-                <td>Laki-laki</td>
+                <th>Agama</th>
+                <td>Islam</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Tempat Lahir</th>
-                <td>Malino</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th>Tanggal Lahir</th>
-                <td>2 Januari 1977</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th>Nama Ibu Kandung</th>
-                <td>Mumang</td>
+                <th>Kewarganegaraan</th>
+                <td>Indonesia</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>

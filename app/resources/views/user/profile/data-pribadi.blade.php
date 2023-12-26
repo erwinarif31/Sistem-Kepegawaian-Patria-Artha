@@ -179,7 +179,7 @@
             <div class="card p-3">
                 <div class="d-flex justify-content-between">
                     <h5 class="text-bold">Kependudukan</h5>
-                    <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px; fill: white">
+                    <a href="{{ route('user.kependudukan') }}" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px; fill: white">
                         Ajukan Perubahan
                     </a>
                 </div>

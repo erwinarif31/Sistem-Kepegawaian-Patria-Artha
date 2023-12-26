@@ -329,6 +329,11 @@ return [
                     'url'  => 'user/profile/data-pribadi',
                     'icon' => false,
                 ],
+                [
+                    'text' => 'Inpassing',
+                    'url'  => 'user/profile/inpassing',
+                    'icon' => false,
+                ],
             ],
         ],
         // [

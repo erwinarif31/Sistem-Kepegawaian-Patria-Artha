@@ -10,7 +10,7 @@
 
         <h6 class="pl-2 pr-2">/</h6>
 
-        <a href="" class="btn p-0">
+        <a href="{{ route('user.data-pribadi') }}" class="btn p-0">
             <h6>Profil</h6>
         </a>
 

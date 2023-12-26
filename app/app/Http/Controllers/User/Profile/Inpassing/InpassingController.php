@@ -10,4 +10,8 @@ class InpassingController extends Controller
     public function index(){
         return view('user.profile.inpassing');
     }
+
+    public function detail(){
+        return view('user.profile.inpassing.detail');
+    }
 }

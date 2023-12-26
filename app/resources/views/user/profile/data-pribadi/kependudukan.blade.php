@@ -107,7 +107,7 @@
         <div class="" id="parent">
         </div>
 
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-lg-4" style="font-size: 12px">
             </div>
             <div class="col d-flex justify-content-between" style="font-size: 14px">

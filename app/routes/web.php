@@ -36,6 +36,7 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
             Route::get('/kependudukan', 'ProfileController@kependudukan')->name('user.kependudukan');
             Route::get('/kepegawaian', 'ProfileController@kepegawaian')->name('user.kepegawaian');
             Route::get('/bidang-keilmuan', 'ProfileController@bidangKeilmuan')->name('user.bidang-keilmuan');
+            Route::get('/lain', 'ProfileController@lain')->name('user.lain');
         });
     });
 });

@@ -47,5 +47,9 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
                 Route::get('/lain', 'LainController@index')->name('user.lain');
             });
         });
+
+        Route::group(['prefix' => 'inpassing', 'namespace' => 'Inpassing'], function(){
+            Route::get('/', 'InpassingController@index')->name('user.inpassing');
+        });
     });
 });

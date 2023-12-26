@@ -39,7 +39,7 @@
         </div>
         <p style="font-size: 14px">Perubahan data ini tidak memerlukan validasi dan dapat langsung disimpan ke sistem</p>
 
-        <table class="table border-left border-right border-bottom">
+        <table class="table border-left border-right border-bottom" style="font-size: 14px">
             <tr>
                 <th>Pilih Kelompok Bidang</th>
                 <th class="text-center">Aksi</th>

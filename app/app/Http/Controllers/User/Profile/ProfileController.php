@@ -35,4 +35,8 @@ class ProfileController extends Controller
         return view('user.profile.data-pribadi.bidang-keilmuan');
     }
 
+    public function lain(){
+        return view('user.profile.data-pribadi.lain');
+    }
+
 }

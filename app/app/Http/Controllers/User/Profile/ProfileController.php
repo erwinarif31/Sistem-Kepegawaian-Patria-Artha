@@ -11,11 +11,16 @@ class ProfileController extends Controller
         return view('user.profile.data-pribadi');
     }
 
-    public function bidangKeilmuan(){
-        return view('user.profile.data-pribadi.bidang-keilmuan');
+    public function biodata(){
+        return view('user.profile.data-pribadi.biodata');
     }
 
     public function alamatKontak(){
         return view('user.profile.data-pribadi.alamat-kontak');
     }
+
+    public function bidangKeilmuan(){
+        return view('user.profile.data-pribadi.bidang-keilmuan');
+    }
+
 }

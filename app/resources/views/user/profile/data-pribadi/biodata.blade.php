@@ -83,7 +83,7 @@
         </table>
 
         <div class="row">
-            <div class="col-lg-4" style="font-size: 12px">
+            <div class="col-lg-4 font-weight-bold" style="font-size: 12px">
                 <p class="mb-0">Dokumen Bukti</p>
                 <p class="mb-0" style="font-style: italic">Mohon melampirkan file gambar asli yang jelas dan tidak blur</p>
             </div>

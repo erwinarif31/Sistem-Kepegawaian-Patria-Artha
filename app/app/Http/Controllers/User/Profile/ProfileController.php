@@ -19,6 +19,10 @@ class ProfileController extends Controller
         return view('user.profile.data-pribadi.alamat-kontak');
     }
 
+    public function keluarga(){
+        return view('user.profile.data-pribadi.keluarga');
+    }
+
     public function kependudukan(){
         return view('user.profile.data-pribadi.kependudukan');
     }

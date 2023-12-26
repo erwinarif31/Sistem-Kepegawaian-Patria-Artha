@@ -32,6 +32,7 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
             Route::get('/', 'ProfileController@index')->name('user.data-pribadi');
             Route::get('/biodata', 'ProfileController@biodata')->name('user.biodata');
             Route::get('/alamat-kontak', 'ProfileController@alamatKontak')->name('user.alamat-kontak');
+            Route::get('/keluarga', 'ProfileController@keluarga')->name('user.keluarga');
             Route::get('/kependudukan', 'ProfileController@kependudukan')->name('user.kependudukan');
             Route::get('/bidang-keilmuan', 'ProfileController@bidangKeilmuan')->name('user.bidang-keilmuan');
         });

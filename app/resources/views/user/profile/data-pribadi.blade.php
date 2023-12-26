@@ -28,7 +28,7 @@
             <div class="card p-3">
                 <div class="d-flex justify-content-between">
                     <h5 class="text-bold">Profil</h5>
-                    <a href="" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px">Ajukan Perubahan</a>
+                    <a href="{{ route('user.biodata') }}" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 10px">Ajukan Perubahan</a>
                 </div>
                 <img src="https://source.unsplash.com/random/150x150?sig=1" class="p-3 img-fluid"/>
                 <a href="" class="btn btn-info pt-1 pb-1" style="font-size: 14px; fill: white">

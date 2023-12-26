@@ -30,8 +30,9 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
         // Route::get('data-pribadi', 'ProfileController@index')->name('user.profile.data-pribadi');
         Route::group(['prefix' => 'data-pribadi'], function(){
             Route::get('/', 'ProfileController@index')->name('user.data-pribadi');
-            Route::get('/bidang-keilmuan', 'ProfileController@bidangKeilmuan')->name('user.bidang-keilmuan');
+            Route::get('/biodata', 'ProfileController@biodata')->name('user.biodata');
             Route::get('/alamat-kontak', 'ProfileController@alamatKontak')->name('user.alamat-kontak');
+            Route::get('/bidang-keilmuan', 'ProfileController@bidangKeilmuan')->name('user.bidang-keilmuan');
         });
     });
 });

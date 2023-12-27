@@ -40,7 +40,7 @@
 
         <table class="table mt-2 border" style="font-size: 14px">
             <tr>
-                <th>Golongan/Pangkat</th>
+                <th style="width: 35%">Golongan/Pangkat</th>
                 <td>
                     <select class="form-select form-select-sm w-100" aria-label="Small select example">
                         <option selected>Pilih...</option>
@@ -51,37 +51,37 @@
                 </td>
             </tr>
             <tr>
-                <th>Nomor SK Inpassing</th>
+                <th style="width: 35%">Nomor SK Inpassing</th>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Tanggal SK</th>
+                <th style="width: 35%">Tanggal SK</th>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Terhitung Mulai Tanggal</th>
+                <th style="width: 35%">Terhitung Mulai Tanggal</th>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Angka Kredit</th>
+                <th style="width: 35%">Angka Kredit</th>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Masa Kerja (Tahun)</th>
+                <th style="width: 35%">Masa Kerja (Tahun)</th>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Masa Kerja (Bulan)</th>
+                <th style="width: 35%">Masa Kerja (Bulan)</th>
                 <td>
                     <input type="text" class="w-100">
                 </td>

@@ -41,41 +41,41 @@
 
         <table class="table border-left border-right border-bottom" style="font-size: 14px">
             <tr>
-                <th></th>
-                <th class="text-center">Data Saat Ini</th>
+                <th class="w-25"></th>
+                <th class="text-center w-25">Data Saat Ini</th>
                 <th class="text-center">Data Baru</th>
             </tr>
             <tr>
-                <th>Nama</th>
-                <td>Suhendra S</td>
+                <th class="w-25">Nama</th>
+                <td class="w-25">Suhendra S</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Jenis Kelamin</th>
-                <td>Laki-laki</td>
+                <th class="w-25">Jenis Kelamin</th>
+                <td class="w-25">Laki-laki</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Tempat Lahir</th>
-                <td>Malino</td>
+                <th class="w-25">Tempat Lahir</th>
+                <td class="w-25">Malino</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Tanggal Lahir</th>
-                <td>2 Januari 1977</td>
+                <th class="w-25">Tanggal Lahir</th>
+                <td class="w-25">2 Januari 1977</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Nama Ibu Kandung</th>
-                <td>Mumang</td>
+                <th class="w-25">Nama Ibu Kandung</th>
+                <td class="w-25">Mumang</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>

@@ -41,11 +41,11 @@
 
         <table class="table border-left border-right border-bottom" style="font-size: 14px">
             <tr>
-                <th>Pilih Kelompok Bidang</th>
+                <th class="w-75">Pilih Kelompok Bidang</th>
                 <th class="text-center">Aksi</th>
             </tr>
             <tr>
-                <td>   
+                <td class="w-75">   
                     <select class="form-select form-select-sm w-100" aria-label="Small select example">
                         <option selected>Pilih...</option>
                         <option value="1">One</option>

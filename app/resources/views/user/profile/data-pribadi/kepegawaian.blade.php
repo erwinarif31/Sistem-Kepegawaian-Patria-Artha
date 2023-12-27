@@ -40,49 +40,49 @@
 
         <table class="table border-left border-right border-bottom mt-2" style="font-size: 14px">
             <tr>
-                <th></th>
-                <th class="text-center">Data Saat Ini</th>
+                <th class="w-25"></th>
+                <th class="text-center w-25">Data Saat Ini</th>
                 <th class="text-center">Data Baru</th>
             </tr>
             <tr>
-                <th>NIP (khusus PNS)</th>
-                <td>(Tidak ada data)</td>
+                <th class="w-25">NIP (khusus PNS)</th>
+                <td class="w-25">(Tidak ada data)</td>
                 <td>
                     <input type="text" class="w-100">
                     <p class="mb-0 font-italic" style="font-size: 12px">*Pastikan NIP lengkap 18 digit</p>
                 </td>
             </tr>
             <tr>
-                <th>Nomor SK CPNS</th>
-                <td>(Tidak ada data)</td>
+                <th class="w-25">Nomor SK CPNS</th>
+                <td class="w-25">(Tidak ada data)</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>SK CPNS Terhitung Mulai Tanggal</th>
-                <td>(Tidak ada data)</td>
+                <th class="w-25">SK CPNS Terhitung Mulai Tanggal</th>
+                <td class="w-25">(Tidak ada data)</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Nomor SK TMMD</th>
-                <td>(Tidak ada data)</td>
+                <th class="w-25">Nomor SK TMMD</th>
+                <td class="w-25">(Tidak ada data)</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Tanggal Mulai Menjadi Dosen (TMMD)</th>
-                <td>30 Januari 2012</td>
+                <th class="w-25">Tanggal Mulai Menjadi Dosen (TMMD)</th>
+                <td class="w-25">30 Januari 2012</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Sumber Gaji</th>
-                <td>(Tidak ada data)</td>
+                <th class="w-25">Sumber Gaji</th>
+                <td class="w-25">(Tidak ada data)</td>
                 <td>
                     <select class="form-select form-select-sm w-100" aria-label="Small select example">
                         <option selected>Pilih...</option>

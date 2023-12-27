@@ -40,7 +40,7 @@
 
         <div class="table-responsive">
             <table class="table mt-2 table-bordered" style="font-size: 14px">
-                <tr class="text-center">
+                <tr class="text-center table-active">
                     <th>Jabatan Fungsional</th>
                     <th>Nomor SK</th>
                     <th>Terhitung Mulai Tanggal</th>

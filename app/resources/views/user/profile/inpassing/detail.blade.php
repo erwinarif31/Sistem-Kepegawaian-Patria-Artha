@@ -41,31 +41,31 @@
         <table class="table mt-2 border table-responsive-sm" style="font-size: 14px">
             <tr>
                 <th class="w-25">Golongan/Pangkat</th>
-                <td class="w-75">Penata Muda Tk. I</td>
+                <td>Penata Muda Tk. I</td>
             </tr>
             <tr>
                 <th class="w-25">Nomor SK Inpassing</th>
-                <td class="w-75">139/K9/KP.01/IMP/2018</td>
+                <td>139/K9/KP.01/IMP/2018</td>
             </tr>
             <tr>
                 <th class="w-25">Tanggal SK</th>
-                <td class="w-75">20 Februari 2018</td>
+                <td>20 Februari 2018</td>
             </tr>
             <tr>
                 <th class="w-25">Terhitung Mulai Tanggal</th>
-                <td class="w-75">01 Maret 2018</td>
+                <td>01 Maret 2018</td>
             </tr>
             <tr>
                 <th class="w-25">Angkat Kredit</th>
-                <td class="w-75">150.00</td>
+                <td>150.00</td>
             </tr>
             <tr>
                 <th class="w-25">Masa Kerja (Tahun)</th>
-                <td class="w-75">0</td>
+                <td>0</td>
             </tr>
             <tr>
                 <th class="w-25">Masa Kerja (Bulan)</th>
-                <td class="w-75">2</td>
+                <td>2</td>
             </tr>
         </table>
     </div>

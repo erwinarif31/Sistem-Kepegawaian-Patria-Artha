@@ -107,19 +107,19 @@
                 <p style="font-size: 12px;">Untuk informasi lebih lanjut bisa menghubungi PSD-PTU Perguruan Tinggi masing-masing atau cek PO Serdos</p>
                 <table class="table table-hover table-bordered" style="border: 1px solid black; font-size: 14px;">
                     <tr>
-                        <th class="border-0">Bidang Studi</th>
+                        <th class="border-0" style="width: 40%">Bidang Studi</th>
                         <td class="border-0">Manajemen</td>
                     </tr>
                     <tr>
-                        <th class="border-0">No. Registrasi Pendidik</th>
+                        <th class="border-0" style="width: 40%">No. Registrasi Pendidik</th>
                         <td class="border-0">19109104702073</td>
                     </tr>
                     <tr>
-                        <th class="border-0">No. SK</th>
+                        <th class="border-0" style="width: 40%">No. SK</th>
                         <td class="border-0">1900100200368</td>
                     </tr>
                     <tr>
-                        <th class="border-0">Tahun Sertifikasi</th>
+                        <th class="border-0" style="width: 40%">Tahun Sertifikasi</th>
                         <td class="border-0">2019</td>
                     </tr>
                 </table>
@@ -161,6 +161,7 @@
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
+    <link rel="stylesheet" href="{{ asset('css/user/home.css') }}">
 @stop
 
 @section('js')

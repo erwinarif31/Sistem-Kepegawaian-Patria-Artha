@@ -38,33 +38,33 @@
 
                 <table class="table mt-2 mb-0" style="font-size: 14px">
                     <tr>
-                        <td>NIDN</td>
-                        <td>:</td>
+                        <td style="width: 35%">NIDN</td>
+                        <td style="width: 5%">:</td>
                         <td>0902017708</td>
                     </tr>
                     <tr>
-                        <td>Nama</td>
-                        <td>:</td>
+                        <td style="width: 35%">Nama</td>
+                        <td style="width: 5%">:</td>
                         <td>SUHENDRA S</td>
                     </tr>
                     <tr>
-                        <td>Jenis Kelami</td>
-                        <td>:</td>
+                        <td style="width: 35%">Jenis Kelami</td>
+                        <td style="width: 5%">:</td>
                         <td>Laki-laki</td>
                     </tr>
                     <tr>
-                        <td>Tempat Lahir</td>
-                        <td>:</td>
+                        <td style="width: 35%">Tempat Lahir</td>
+                        <td style="width: 5%">:</td>
                         <td>MALINO</td>
                     </tr>
                     <tr>
-                        <td>Tangal Lahir</td>
-                        <td>:</td>
+                        <td style="width: 35%">Tangal Lahir</td>
+                        <td style="width: 5%">:</td>
                         <td>02 Januari 1977</td>
                     </tr>
                     <tr>
-                        <td>Nama Ibu Kandung</td>
-                        <td>:</td>
+                        <td style="width: 35%">Nama Ibu Kandung</td>
+                        <td style="width: 5%">:</td>
                         <td>Mumang</td>
                     </tr>
                 </table>
@@ -82,58 +82,58 @@
 
                 <table class="table mt-2 mb-0" style="font-size: 14px">
                     <tr>
-                        <td>Email</td>
-                        <td>:</td>
+                        <td style="width: 35%">Email</td>
+                        <td style="width: 5%">:</td>
                         <td>suhendra@patria-artha@ac.id</td>
                     </tr>
                     <tr>
-                        <td>Alamat</td>
-                        <td>:</td>
+                        <td style="width: 35%">Alamat</td>
+                        <td style="width: 5%">:</td>
                         <td>Hartaco Blok I P13 Balang Baru</td>
                     </tr>
                     <tr>
-                        <td>RT</td>
-                        <td>:</td>
+                        <td style="width: 35%">RT</td>
+                        <td style="width: 5%">:</td>
                         <td>2</td>
                     </tr>
                     <tr>
-                        <td>RW</td>
-                        <td>:</td>
+                        <td style="width: 35%">RW</td>
+                        <td style="width: 5%">:</td>
                         <td>7</td>
                     </tr>
                     <tr>
-                        <td>Dusun</td>
-                        <td>:</td>
+                        <td style="width: 35%">Dusun</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                     <tr>
-                        <td>Desa/Kelurahan</td>
-                        <td>:</td>
+                        <td style="width: 35%">Desa/Kelurahan</td>
+                        <td style="width: 5%">:</td>
                         <td>Balang Baru</td>
                     </tr>
                     <tr>
-                        <td>Kota/Kabupaten/Kecamatan</td>
-                        <td>:</td>
+                        <td style="width: 35%">Kota/Kabupaten/Kecamatan</td>
+                        <td style="width: 5%">:</td>
                         <td>Kota Makassar</td>
                     </tr>
                     <tr>
-                        <td>Provinsi</td>
-                        <td>:</td>
+                        <td style="width: 35%">Provinsi</td>
+                        <td style="width: 5%">:</td>
                         <td>Prov. Sulawesi Selatan</td>
                     </tr>
                     <tr>
-                        <td>Kode Pos</td>
-                        <td>:</td>
+                        <td style="width: 35%">Kode Pos</td>
+                        <td style="width: 5%">:</td>
                         <td>90222</td>
                     </tr>
                     <tr>
-                        <td>No. Telepon Rumah</td>
-                        <td>:</td>
+                        <td style="width: 35%">No. Telepon Rumah</td>
+                        <td style="width: 5%">:</td>
                         <td>0411869761</td>
                     </tr>
                     <tr>
-                        <td>No. HP</td>
-                        <td>:</td>
+                        <td style="width: 35%">No. HP</td>
+                        <td style="width: 5%">:</td>
                         <td>082396319222</td>
                     </tr>
                 </table>
@@ -152,23 +152,23 @@
                 </div>
                 <table class="table mt-2 mb-0" style="font-size: 14px">
                     <tr>
-                        <td>Status Perkawinan</td>
-                        <td>:</td>
+                        <td style="width: 35%">Status Perkawinan</td>
+                        <td style="width: 5%">:</td>
                         <td>Cerai</td>
                     </tr>
                     <tr>
-                        <td>Nama Suami/Istri</td>
-                        <td>:</td>
+                        <td style="width: 35%">Nama Suami/Istri</td>
+                        <td style="width: 5%">:</td>
                         <td>Hasvivi Hasdin</td>
                     </tr>
                     <tr>
-                        <td>NIP Suami/Istri</td>
-                        <td>:</td>
+                        <td style="width: 35%">NIP Suami/Istri</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                     <tr>
-                        <td>Pekerjaan Suami/Istri</td>
-                        <td>:</td>
+                        <td style="width: 35%">Pekerjaan Suami/Istri</td>
+                        <td style="width: 5%">:</td>
                         <td>Tidak bekerja</td>
                     </tr>
                 </table>
@@ -185,18 +185,18 @@
                 </div>
                 <table class="table mt-2 mb-0" style="font-size: 14px">
                     <tr>
-                        <td>NIK</td>
-                        <td>:</td>
+                        <td style="width: 35%">NIK</td>
+                        <td style="width: 5%">:</td>
                         <td>3171100201770009</td>
                     </tr>
                     <tr>
-                        <td>Agama</td>
-                        <td>:</td>
+                        <td style="width: 35%">Agama</td>
+                        <td style="width: 5%">:</td>
                         <td>Islam</td>
                     </tr>
                     <tr>
-                        <td>Kewarganegaraan</td>
-                        <td>:</td>
+                        <td style="width: 35%">Kewarganegaraan</td>
+                        <td style="width: 5%">:</td>
                         <td>Indonesia</td>
                     </tr>
                 </table>
@@ -215,53 +215,53 @@
                 </div>
                 <table class="table mt-2 mb-0" style="font-size: 14px">
                     <tr>
-                        <td>Program Studi</td>
-                        <td>:</td>
+                        <td style="width: 35%">Program Studi</td>
+                        <td style="width: 5%">:</td>
                         <td>Akuntansi</td>
                     </tr>
                     <tr>
-                        <td>NIP (khusus PNS)</td>
-                        <td>:</td>
+                        <td style="width: 35%">NIP (khusus PNS)</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                     <tr>
-                        <td>Status Kepegawaian</td>
-                        <td>:</td>
+                        <td style="width: 35%">Status Kepegawaian</td>
+                        <td style="width: 5%">:</td>
                         <td>NON PNS</td>
                     </tr>
                     <tr>
-                        <td>Status Keaktifan</td>
-                        <td>:</td>
+                        <td style="width: 35%">Status Keaktifan</td>
+                        <td style="width: 5%">:</td>
                         <td>Aktif</td>
                     </tr>
                     <tr>
-                        <td>Nomor SK CPNS</td>
-                        <td>:</td>
+                        <td style="width: 35%">Nomor SK CPNS</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                     <tr>
-                        <td>SK CPNS Terhitung Mulai Tanggal</td>
-                        <td>:</td>
+                        <td style="width: 35%">SK CPNS Terhitung Mulai Tanggal</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                     <tr>
-                        <td>Nomor SK TMMD</td>
-                        <td>:</td>
+                        <td style="width: 35%">Nomor SK TMMD</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                     <tr>
-                        <td>Tanggal Mulai Menjadi Dosen (TMMD)</td>
-                        <td>:</td>
+                        <td style="width: 35%">Tanggal Mulai Menjadi Dosen (TMMD)</td>
+                        <td style="width: 5%">:</td>
                         <td>30 Januari 2012</td>
                     </tr>
                     <tr>
-                        <td>Pangkat/Golongan</td>
-                        <td>:</td>
+                        <td style="width: 35%">Pangkat/Golongan</td>
+                        <td style="width: 5%">:</td>
                         <td>Penata - III/c</td>
                     </tr>
                     <tr>
-                        <td>Sumber Gaji</td>
-                        <td>:</td>
+                        <td style="width: 35%">Sumber Gaji</td>
+                        <td style="width: 5%">:</td>
                         <td>Lainnya</td>
                     </tr>
                 </table>
@@ -278,8 +278,8 @@
                 </div>
                 <table class="table mt-2 mb-0" style="font-size: 14px">
                     <tr>
-                        <td>Kelompok Bidang</td>
-                        <td>:</td>
+                        <td style="width: 35%">Kelompok Bidang</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                 </table>
@@ -293,18 +293,18 @@
                 </div>
                 <table class="table mt-2 mb-0" style="font-size: 14px">
                     <tr>
-                        <td>NPWP</td>
-                        <td>:</td>
+                        <td style="width: 35%">NPWP</td>
+                        <td style="width: 5%">:</td>
                         <td>853599538804000</td>
                     </tr>
                     <tr>
-                        <td>Nama Wajib Pajak</td>
-                        <td>:</td>
+                        <td style="width: 35%">Nama Wajib Pajak</td>
+                        <td style="width: 5%">:</td>
                         <td>(Tidak ada data)</td>
                     </tr>
                     <tr>
-                        <td>SINTA ID</td>
-                        <td>:</td>
+                        <td style="width: 35%">SINTA ID</td>
+                        <td style="width: 5%">:</td>
                         <td>6656565</td>
                     </tr>
                 </table>

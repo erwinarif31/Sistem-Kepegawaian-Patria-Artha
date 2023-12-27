@@ -41,34 +41,34 @@
 
         <table class="table border-left border-right border-bottom" style="font-size: 14px">
             <tr>
-                <th></th>
-                <th class="text-center">Data Saat Ini</th>
+                <th class="w-25"></th>
+                <th class="text-center w-25">Data Saat Ini</th>
                 <th class="text-center">Data Baru</th>
             </tr>
             <tr>
-                <th>Status Perkawinan</th>
-                <td>Cerai</td>
+                <th class="w-25">Status Perkawinan</th>
+                <td class="w-25">Cerai</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Nama Suami/Istri</th>
-                <td>Hasvivi Hasdin</td>
+                <th class="w-25">Nama Suami/Istri</th>
+                <td class="w-25">Hasvivi Hasdin</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Pekerjaan Suami/Istri</th>
-                <td>Tidak bekerja</td>
+                <th class="w-25">Pekerjaan Suami/Istri</th>
+                <td class="w-25">Tidak bekerja</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>NIP Suami/Istri</th>
-                <td>-</td>
+                <th class="w-25">NIP Suami/Istri</th>
+                <td class="w-25">-</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>

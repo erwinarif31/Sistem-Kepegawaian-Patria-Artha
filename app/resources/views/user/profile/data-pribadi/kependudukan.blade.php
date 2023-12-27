@@ -41,27 +41,27 @@
 
         <table class="table border-left border-right border-bottom" style="font-size: 14px">
             <tr>
-                <th></th>
-                <th class="text-center">Data Saat Ini</th>
+                <th class="w-25"></th>
+                <th class="text-center w-25">Data Saat Ini</th>
                 <th class="text-center">Data Baru</th>
             </tr>
             <tr>
-                <th>NIK</th>
-                <td>7371100201770009</td>
+                <th class="w-25">NIK</th>
+                <td class="w-25">7371100201770009</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Agama</th>
-                <td>Islam</td>
+                <th class="w-25">Agama</th>
+                <td class="w-25">Islam</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Kewarganegaraan</th>
-                <td>Indonesia</td>
+                <th class="w-25">Kewarganegaraan</th>
+                <td class="w-25">Indonesia</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>

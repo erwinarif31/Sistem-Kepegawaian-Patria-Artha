@@ -40,55 +40,55 @@
 
         <table class="table mt-2 border-left border-right" style="font-size: 14px">
             <tr>
-                <th></th>
-                <th class="text-center">Data Saat Ini</th>
+                <th class="w-25"></th>
+                <th class="text-center w-25">Data Saat Ini</th>
                 <th class="text-center">Data Baru</th>
             </tr>
             <tr>
-                <th>Email</th>
-                <td>Null</td>
+                <th class="w-25">Email</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Alamat</th>
-                <td>Null</td>
+                <th class="w-25">Alamat</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>RT</th>
-                <td>Null</td>
+                <th class="w-25">RT</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>RW</th>
-                <td>Null</td>
+                <th class="w-25">RW</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Dusun</th>
-                <td>Null</td>
+                <th class="w-25">Dusun</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Desa/Kelurahan</th>
-                <td>Null</td>
+                <th class="w-25">Desa/Kelurahan</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>Kota/Kabupaten/Kecamatan</th>
-                <td>Null</td>
+                <th class="w-25">Kota/Kabupaten/Kecamatan</th>
+                <td class="w-25">Null</td>
                 <td>
                     <select class="form-select w-100 h-100" aria-label="Small select example">
                         <option selected>Pilih...</option>
@@ -99,22 +99,22 @@
                 </td>
             </tr>
             <tr>
-                <th>Kode Pos</th>
-                <td>Null</td>
+                <th class="w-25">Kode Pos</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr>
-                <th>No. Telepon Rumah</th>
-                <td>Null</td>
+                <th class="w-25">No. Telepon Rumah</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>
             </tr>
             <tr  class="border-left border-right border-bottom">
-                <th>No. HP</th>
-                <td>Null</td>
+                <th class="w-25">No. HP</th>
+                <td class="w-25">Null</td>
                 <td>
                     <input type="text" class="w-100">
                 </td>

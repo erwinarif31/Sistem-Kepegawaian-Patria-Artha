@@ -3,35 +3,35 @@
 @section('title', 'Profile | Jabatan Fungsional')
 
 @section('content_header')
-<div class="d-flex">
-    <a href="{{ route('user.home') }}" class="btn p-0">
-        <h6>Beranda</h6>
-    </a>
+    <div class="d-flex">
+        <a href="{{ route('user.home') }}" class="btn p-0">
+            <h6>Beranda</h6>
+        </a>
 
-    <h6 class="pl-2 pr-2">/</h6>
+        <h6 class="pl-2 pr-2">/</h6>
 
-    <a href="{{ route('user.jabatan-fungsional') }}" class="btn p-0">
-        <h6>Profil</h6>
-    </a>
+        <a href="{{ route('user.jabatan-fungsional') }}" class="btn p-0">
+            <h6>Profil</h6>
+        </a>
 
-    <h6 class="pl-2 pr-2">/</h6>
+        <h6 class="pl-2 pr-2">/</h6>
 
-    <a href="{{ route('user.jabatan-fungsional') }}" class="btn p-0">
-        <h6>Jabatan Fungsional</h6>
-    </a>
+        <a href="{{ route('user.jabatan-fungsional') }}" class="btn p-0">
+            <h6>Jabatan Fungsional</h6>
+        </a>
 
-    <h6 class="pl-2 pr-2">/</h6>
+        <h6 class="pl-2 pr-2">/</h6>
 
-    <a href="" class="btn p-0">
-        <h6>Tambah</h6>
-    </a>
-</div>
+        <a href="" class="btn p-0">
+            <h6>Edit</h6>
+        </a>
+    </div>
 @stop
 
 @section('content')
     <div class="card p-3">
         <div class="d-flex justify-content-between">
-            <h5 class="text-bold">Form Tambah Jabatan Fungsional</h5>
+            <h5 class="text-bold">Form Perubahan Jabatan Fungsional</h5>
             <a href="{{ route('user.jabatan-fungsional') }}" class="btn btn-secondary btn-sm mt-auto mb-auto" style="font-size: 12px; fill: white">
                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
                 Kembali
@@ -42,27 +42,50 @@
         <div class="table-responsive">
             <table class="table mt-2 border" style="font-size: 14px">
                 <tr>
+                    <th class="w-25"></th>
+                    <th class="text-center">Data Saat Ini</th>
+                    <th class="text-center">Data Baru</th>
+                </tr>
+                <tr>
                     <th class="w-25">Jabatan Fungsional</th>
-                    <td>
-                        <select class="form-select form-select-sm w-75" aria-label="Small select example">
-                            <option selected>Pilih yang sesuai</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                    </td>
+                    <td>Lektor 300.00</td>
+                    <td>Tidak dapat diubah</td>
                 </tr>
                 <tr>
                     <th class="w-25">Nomor SK</th>
+                    <td>11226/LL9/KP.07.01/2023</td>
                     <td>
-                        <input type="text" class="w-75" placeholder="Contoh: 03/PL30/SK/D/2018">
-                        <p class="mb-0 font-italic" style="font-size: 12px">*Pastikan nomor SK sesuai. Satu SK hanya dapat tersimpan satu kali.</p>
+                        <input type="text" class="w-100">
                     </td>
                 </tr>
                 <tr>
                     <th class="w-25">Terhitung Mulai Tanggal</th>
+                    <td>1 Desember 2023</td>
                     <td>
-                        <input type="date" class="w-75">
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <p class="bg-secondary p-1 pl-2 font-weight-bold m-0" style="font-size: 14px">Dokumen</p>
+        <div class="table-responsive">
+            <table class="table table-bordered" style="font-size: 14px">
+                <tr class="text-center">
+                    <th>Nomor</th>
+                    <th>Nama File</th>
+                    <th>Jenis Dokumen</th>
+                    <th>Aksi</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>SK Jafung Lektor.pdf</td>
+                    <td>SK Jabatan Fungsional</td>
+                    <td>
+                        <a href="" class="" style="fill: cornflowerblue; color: cornflowerblue; font-size: 14px">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                            Lihat Dokumen
+                        </a>
                     </td>
                 </tr>
             </table>
@@ -72,6 +95,8 @@
             <div class="col-lg-4 font-weight-bold" style="font-size: 12px">
                 <p class="mb-0">Dokumen Bukti</p>
                 <p class="mb-0" style="font-style: italic">Mohon melampirkan file gambar asli yang jelas dan tidak blur</p>
+                <br>
+                <p class="mb-0" style="font-style: italic">Jika ada dokumen baru yang dilampirkan maka akan menggantikan dokumen lama yang tersimpan</p>
             </div>
 
             <div class="col border pb-3 pl-0 pr-0" style="font-size: 14px">

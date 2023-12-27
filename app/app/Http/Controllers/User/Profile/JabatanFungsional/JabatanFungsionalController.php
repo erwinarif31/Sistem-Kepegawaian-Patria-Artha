@@ -18,4 +18,8 @@ class JabatanFungsionalController extends Controller
     public function create(){
         return view('user.profile.jabatan-fungsional.new');
     }
+
+    public function edit(){
+        return view('user.profile.jabatan-fungsional.edit');
+    }
 }

@@ -140,11 +140,9 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
 @stop   
 
 @section('js')
-    <script> console.log('Hi!'); </script>
     <script>
         let tr = `<div class="row mt-2">
             <div class="col-lg-4" style="font-size: 12px">

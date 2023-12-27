@@ -54,5 +54,9 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
             
             Route::get('/create', 'InpassingController@create')->name('user.inpassing.create');
         });
+
+        Route::group(['prefix' => 'jabatan-fungsional', 'namespace' => 'JabatanFungsional'], function(){
+            Route::get('/', 'JabatanFungsionalController@index')->name('user.jabatan-fungsional');
+        });
     });
 });

@@ -19,12 +19,47 @@ Route::get('/', function () {
 
 Route::group(['prefix' => '', 'namespace' => 'App\Http\Controllers\Auth'], function(){
     Route::get('/login', 'LoginController@index')->name('login');
+    Route::post('/login', 'LoginController@login')->name('login.post');
+    Route::post('/logout', 'LoginController@logout')->name('logout');
 });
 
 Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], function(){
     Route::get('/', 'HomeController@index')->name('user.home');
 
-    // Route::group(['prefix' => 'profile'], function(){
-    //     Route::get('/data-pribadi', '')
-    // });
+    Route::group(['prefix' => 'profile', 'namespace' => 'Profile'], function(){
+
+        Route::group(['prefix' => 'data-pribadi'], function(){
+            Route::get('/', 'ProfileController@index')->name('user.data-pribadi');
+
+            Route::group(['namespace' => 'DataPribadi'], function(){
+                Route::get('/biodata', 'BiodataController@index')->name('user.biodata');
+    
+                Route::get('/alamat-kontak', 'AlamatController@index')->name('user.alamat-kontak');
+    
+                Route::get('/keluarga', 'KeluargaController@index')->name('user.keluarga');
+    
+                Route::get('/kependudukan', 'KependudukanController@index')->name('user.kependudukan');
+    
+                Route::get('/kepegawaian', 'KepegawaianController@index')->name('user.kepegawaian');
+    
+                Route::get('/bidang-keilmuan', 'KeilmuanController@index')->name('user.bidang-keilmuan');
+                
+                Route::get('/lain', 'LainController@index')->name('user.lain');
+            });
+        });
+
+        Route::group(['prefix' => 'inpassing', 'namespace' => 'Inpassing'], function(){
+            Route::get('/', 'InpassingController@index')->name('user.inpassing');
+            Route::get('/detail', 'InpassingController@detail')->name('user.inpassing.detail');
+            
+            Route::get('/create', 'InpassingController@create')->name('user.inpassing.create');
+        });
+
+        Route::group(['prefix' => 'jabatan-fungsional', 'namespace' => 'JabatanFungsional'], function(){
+            Route::get('/', 'JabatanFungsionalController@index')->name('user.jabatan-fungsional');
+            Route::get('/detail', 'JabatanFungsionalController@detail')->name('user.jabatan-fungsional.detail');
+
+            Route::get('/create', 'JabatanFungsionalController@create')->name('user.jabatan-fungsional.create');
+        });
+    });
 });

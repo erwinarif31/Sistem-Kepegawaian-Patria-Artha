@@ -38,36 +38,38 @@
             </a>
         </div>
 
-        <table class="table mt-2 border table-responsive-sm" style="font-size: 14px">
-            <tr>
-                <th class="w-25">Golongan/Pangkat</th>
-                <td>Penata Muda Tk. I</td>
-            </tr>
-            <tr>
-                <th class="w-25">Nomor SK Inpassing</th>
-                <td>139/K9/KP.01/IMP/2018</td>
-            </tr>
-            <tr>
-                <th class="w-25">Tanggal SK</th>
-                <td>20 Februari 2018</td>
-            </tr>
-            <tr>
-                <th class="w-25">Terhitung Mulai Tanggal</th>
-                <td>01 Maret 2018</td>
-            </tr>
-            <tr>
-                <th class="w-25">Angkat Kredit</th>
-                <td>150.00</td>
-            </tr>
-            <tr>
-                <th class="w-25">Masa Kerja (Tahun)</th>
-                <td>0</td>
-            </tr>
-            <tr>
-                <th class="w-25">Masa Kerja (Bulan)</th>
-                <td>2</td>
-            </tr>
-        </table>
+        <div class="table-responsive">
+            <table class="table mt-2 border" style="font-size: 14px">
+                <tr>
+                    <th class="w-25">Golongan/Pangkat</th>
+                    <td>Penata Muda Tk. I</td>
+                </tr>
+                <tr>
+                    <th class="w-25">Nomor SK Inpassing</th>
+                    <td>139/K9/KP.01/IMP/2018</td>
+                </tr>
+                <tr>
+                    <th class="w-25">Tanggal SK</th>
+                    <td>20 Februari 2018</td>
+                </tr>
+                <tr>
+                    <th class="w-25">Terhitung Mulai Tanggal</th>
+                    <td>01 Maret 2018</td>
+                </tr>
+                <tr>
+                    <th class="w-25">Angkat Kredit</th>
+                    <td>150.00</td>
+                </tr>
+                <tr>
+                    <th class="w-25">Masa Kerja (Tahun)</th>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th class="w-25">Masa Kerja (Bulan)</th>
+                    <td>2</td>
+                </tr>
+            </table>
+        </div>
     </div>
 @stop
 

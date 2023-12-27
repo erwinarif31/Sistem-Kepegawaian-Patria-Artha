@@ -38,61 +38,64 @@
             </a>
         </div>
 
-        <table class="table border-left border-right border-bottom mt-2" style="font-size: 14px">
-            <tr>
-                <th class="w-25"></th>
-                <th class="text-center w-25">Data Saat Ini</th>
-                <th class="text-center">Data Baru</th>
-            </tr>
-            <tr>
-                <th class="w-25">NIP (khusus PNS)</th>
-                <td class="w-25">(Tidak ada data)</td>
-                <td>
-                    <input type="text" class="w-100">
-                    <p class="mb-0 font-italic" style="font-size: 12px">*Pastikan NIP lengkap 18 digit</p>
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Nomor SK CPNS</th>
-                <td class="w-25">(Tidak ada data)</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">SK CPNS Terhitung Mulai Tanggal</th>
-                <td class="w-25">(Tidak ada data)</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Nomor SK TMMD</th>
-                <td class="w-25">(Tidak ada data)</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Tanggal Mulai Menjadi Dosen (TMMD)</th>
-                <td class="w-25">30 Januari 2012</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Sumber Gaji</th>
-                <td class="w-25">(Tidak ada data)</td>
-                <td>
-                    <select class="form-select form-select-sm w-100" aria-label="Small select example">
-                        <option selected>Pilih...</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                </td>
-            </tr>
-        </table>
+        <div class="table-responsive">
+            <table class="table border-left border-right border-bottom mt-2" style="font-size: 14px">
+                <tr>
+                    <th class="w-25"></th>
+                    <th class="text-center w-25">Data Saat Ini</th>
+                    <th class="text-center">Data Baru</th>
+                </tr>
+                <tr>
+                    <th class="w-25">NIP (khusus PNS)</th>
+                    <td class="w-25">(Tidak ada data)</td>
+                    <td>
+                        <input type="text" class="w-100">
+                        <p class="mb-0 font-italic" style="font-size: 12px">*Pastikan NIP lengkap 18 digit</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Nomor SK CPNS</th>
+                    <td class="w-25">(Tidak ada data)</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">SK CPNS Terhitung Mulai Tanggal</th>
+                    <td class="w-25">(Tidak ada data)</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Nomor SK TMMD</th>
+                    <td class="w-25">(Tidak ada data)</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Tanggal Mulai Menjadi Dosen (TMMD)</th>
+                    <td class="w-25">30 Januari 2012</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Sumber Gaji</th>
+                    <td class="w-25">(Tidak ada data)</td>
+                    <td>
+                        <select class="form-select form-select-sm w-100" aria-label="Small select example">
+                            <option selected>Pilih...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
 
         <div class="row">
             <div class="col-lg-4 font-weight-bold" style="font-size: 12px">

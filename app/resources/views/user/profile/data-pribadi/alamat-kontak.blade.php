@@ -38,88 +38,90 @@
             </a>
         </div>
 
-        <table class="table mt-2 border-left border-right" style="font-size: 14px">
-            <tr>
-                <th class="w-25"></th>
-                <th class="text-center w-25">Data Saat Ini</th>
-                <th class="text-center">Data Baru</th>
-            </tr>
-            <tr>
-                <th class="w-25">Email</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Alamat</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">RT</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">RW</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Dusun</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Desa/Kelurahan</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Kota/Kabupaten/Kecamatan</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <select class="form-select w-100 h-100" aria-label="Small select example">
-                        <option selected>Pilih...</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Kode Pos</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">No. Telepon Rumah</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr  class="border-left border-right border-bottom">
-                <th class="w-25">No. HP</th>
-                <td class="w-25">Null</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-        </table>
+        <div class="table-responsive">
+            <table class="table mt-2 border-left border-right" style="font-size: 14px">
+                <tr>
+                    <th class="w-25"></th>
+                    <th class="text-center w-25">Data Saat Ini</th>
+                    <th class="text-center">Data Baru</th>
+                </tr>
+                <tr>
+                    <th class="w-25">Email</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Alamat</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">RT</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">RW</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Dusun</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Desa/Kelurahan</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Kota/Kabupaten/Kecamatan</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <select class="form-select w-100 h-100" aria-label="Small select example">
+                            <option selected>Pilih...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Kode Pos</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">No. Telepon Rumah</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr  class="border-left border-right border-bottom">
+                    <th class="w-25">No. HP</th>
+                    <td class="w-25">Null</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+            </table>
+        </div>
 
         <div class="row">
             <div class="col-lg-4 font-weight-bold" style="font-size: 12px">

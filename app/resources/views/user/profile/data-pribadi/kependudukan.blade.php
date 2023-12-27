@@ -39,34 +39,36 @@
         </div>
         <p style="font-size: 14px">Perubahan data ini memerlukan validasi yang akan diproses dalam maksimal 21 hari kerja setelah diajukan</p>
 
-        <table class="table border-left border-right border-bottom" style="font-size: 14px">
-            <tr>
-                <th class="w-25"></th>
-                <th class="text-center w-25">Data Saat Ini</th>
-                <th class="text-center">Data Baru</th>
-            </tr>
-            <tr>
-                <th class="w-25">NIK</th>
-                <td class="w-25">7371100201770009</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Agama</th>
-                <td class="w-25">Islam</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Kewarganegaraan</th>
-                <td class="w-25">Indonesia</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-        </table>
+        <div class="table-responsive">
+            <table class="table border-left border-right border-bottom" style="font-size: 14px">
+                <tr>
+                    <th class="w-25"></th>
+                    <th class="text-center w-25">Data Saat Ini</th>
+                    <th class="text-center">Data Baru</th>
+                </tr>
+                <tr>
+                    <th class="w-25">NIK</th>
+                    <td class="w-25">7371100201770009</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Agama</th>
+                    <td class="w-25">Islam</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Kewarganegaraan</th>
+                    <td class="w-25">Indonesia</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+            </table>
+        </div>
 
         <div class="row">
             <div class="col-lg-4 font-weight-bold" style="font-size: 12px">

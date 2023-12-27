@@ -11,6 +11,10 @@ class JabatanFungsionalController extends Controller
         return view('user.profile.jabatan-fungsional');
     }
 
+    public function detail(){
+        return view('user.profile.jabatan-fungsional.detail');
+    }
+
     public function create(){
         return view('user.profile.jabatan-fungsional.new');
     }

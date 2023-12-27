@@ -57,6 +57,7 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
 
         Route::group(['prefix' => 'jabatan-fungsional', 'namespace' => 'JabatanFungsional'], function(){
             Route::get('/', 'JabatanFungsionalController@index')->name('user.jabatan-fungsional');
+            Route::get('/detail', 'JabatanFungsionalController@detail')->name('user.jabatan-fungsional.detail');
 
             Route::get('/create', 'JabatanFungsionalController@create')->name('user.jabatan-fungsional.create');
         });

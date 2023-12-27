@@ -60,6 +60,8 @@ Route::group(['prefix' => 'user', 'namespace' => 'App\Http\Controllers\User'], f
             Route::get('/detail', 'JabatanFungsionalController@detail')->name('user.jabatan-fungsional.detail');
 
             Route::get('/create', 'JabatanFungsionalController@create')->name('user.jabatan-fungsional.create');
+
+            Route::get('/edit', 'JabatanFungsionalController@edit')->name('user.jabatan-fungsional.edit');
         });
     });
 });

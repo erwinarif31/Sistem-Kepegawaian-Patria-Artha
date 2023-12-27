@@ -14,4 +14,8 @@ class InpassingController extends Controller
     public function detail(){
         return view('user.profile.inpassing.detail');
     }
+
+    public function create(){
+        return view('user.profile.inpassing.new');
+    }
 }

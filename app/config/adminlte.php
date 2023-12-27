@@ -334,6 +334,11 @@ return [
                     'url'  => 'user/profile/inpassing',
                     'icon' => false,
                 ],
+                [
+                    'text' => 'Jabatan Fungsional',
+                    'url'  => 'user/profile/jabatan-fungsional',
+                    'icon' => false,
+                ],
             ],
         ],
         // [

@@ -38,28 +38,30 @@
             </a>
         </div>
 
-        <table class="table border-left border-right border-bottom mt-2" style="font-size: 14px">
-            <tr>
-                <th class="w-25"></th>
-                <th class="text-center w-25">Data Saat Ini</th>
-                <th class="text-center">Data Baru</th>
-            </tr>
-            <tr>
-                <th class="w-25">NPWP</th>
-                <td class="w-25">853599539904000</td>
-                <td>
-                    <input type="text" class="w-100">
-                    <p class="mb-0 font-italic" style="font-size: 12px">*Masukkan Nomor NPWP tanpa menggunakan titik (.) dan dash (-)</p>
-                </td>
-            </tr>
-            <tr>
-                <th class="w-25">Nama Wajib Pajak</th>
-                <td class="w-25">(Tidak ada data)</td>
-                <td>
-                    <input type="text" class="w-100">
-                </td>
-            </tr>
-        </table>
+        <div class="table-responsive">
+            <table class="table border-left border-right border-bottom mt-2" style="font-size: 14px">
+                <tr>
+                    <th class="w-25"></th>
+                    <th class="text-center w-25">Data Saat Ini</th>
+                    <th class="text-center">Data Baru</th>
+                </tr>
+                <tr>
+                    <th class="w-25">NPWP</th>
+                    <td class="w-25">853599539904000</td>
+                    <td>
+                        <input type="text" class="w-100">
+                        <p class="mb-0 font-italic" style="font-size: 12px">*Masukkan Nomor NPWP tanpa menggunakan titik (.) dan dash (-)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="w-25">Nama Wajib Pajak</th>
+                    <td class="w-25">(Tidak ada data)</td>
+                    <td>
+                        <input type="text" class="w-100">
+                    </td>
+                </tr>
+            </table>
+        </div>
 
         <div class="row">
             <div class="col-lg-4 font-weight-bold" style="font-size: 12px">
